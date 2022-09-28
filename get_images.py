@@ -117,6 +117,8 @@ def main():
                 print(f"Saved {counter} images")
     split_data('images/ERIMAGE/', 'data/ERIMAGE/TRAIN/', 'data/ERIMAGE/TEST/', 'data/ERIMAGE/VAL/', 0.8)
     
+    split_data('images/NRIMAGE/', 'data/NRIMAGE/TRAIN/', 'data/NRIMAGE/TEST/', 'data/NRIMAGE/VAL/', 0.8)
+
 if __name__ == '__main__':
     main()
 
