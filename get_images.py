@@ -13,7 +13,7 @@ from scipy import signal
 from scipy.fft import fftshift
 from concurrent.futures import ProcessPoolExecutor
 
-def download_csv() -> tuple[pd.DataFrame, pd.DataFrame]:
+def download_csv()  :
     """Download csv files from the internet and return them as pandas dataframes"""
     # Download csv files from the internet
     er_sig = pd.read_csv('https://raw.githubusercontent.com/siehienp20/topanga/main/raw_er.csv', header = None)
